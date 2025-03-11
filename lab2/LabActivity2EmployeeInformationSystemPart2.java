@@ -53,7 +53,7 @@ public class LabActivity2EmployeeInformationSystemPart2 {
         System.out.println("Full Name:               " + lastName.toUpperCase() + ", " + firstName.toUpperCase());
         System.out.println("Age:                     " + age + " years old");
         System.out.println("Years to Retirement:     " + yearsToRetirement + " years");
-        System.out.printf("Daily Salary:                     Php %.2f\n", dailyWage);
+        System.out.printf("Daily Salary:                     Php %.2f\n", roundedDailyWage);
         System.out.printf("Weekly Salary:                    Php %.2f\n", weeklyWage);
         System.out.printf("Monthly Salary:                   Php %.2f\n", monthlyWage);
         System.out.printf("Gross Yearly Salary:              Php %.2f\n", grossYearlyWage);
