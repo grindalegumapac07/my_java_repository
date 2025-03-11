@@ -48,7 +48,7 @@ public class LabActivity2EmployeeInformationSystemPart2 {
         double netYearlyWage = grossYearlyWage - (grossYearlyWage * 0.32) - 1500;
 
         // Displaying the result.
-        System.out.println("Employee Information");
+        System.out.println("\nEmployee Information");
         System.out.println("---------------------");
         System.out.println("Full Name:               " + lastName.toUpperCase() + ", " + firstName.toUpperCase());
         System.out.println("Age:                     " + age + " years old");
