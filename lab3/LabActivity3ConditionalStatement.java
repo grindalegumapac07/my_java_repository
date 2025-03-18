@@ -41,7 +41,7 @@ public class LabActivity3ConditionalStatement {
         double hourlyWage = input.nextDouble();
 
         // Getting user's role.
-        System.out.print("Enter your role code (1-Manager, 2-Supervisor, 3-Staff, 4-Intern): ");
+        System.out.print("Enter role code (1-Manager, 2-Supervisor, 3-Staff, 4-Intern): ");
         int roleCodeNumber = input.nextInt();
         
         // Determining role name using switch statement.
