@@ -23,7 +23,7 @@ public class LabActivity3ConditionalStatement {
         }
 
         // Calculating user's years to retirement.
-        int yearsToRetirement = 65 - age;   // Using Math.abs() method is not necesarry since we can now catch for invalid inputs for age (a negative years to retirement value would be invalid).
+        int yearsToRetirement = Math.abs(65 - age);
         
         // Getting user's hours worked.
         System.out.print("Enter hours worked: ");
@@ -93,7 +93,7 @@ public class LabActivity3ConditionalStatement {
         System.out.println("Age:                    " + age + " years old");
         System.out.println("Position:               " + roleCodeName);
         System.out.println("Years to Retirement:    " + yearsToRetirement + " years");
-        System.out.printf("Daily Salary:           Php %.2f\n", dailyWage);
+        System.out.printf("Daily Salary:           Php %.2f\n", roundedDailyWage);
         System.out.printf("Weekly Salary:          Php %.2f\n", weeklyWage);
         System.out.printf("Monthly Salary:         Php %.2f\n", monthlyWage);
         System.out.printf("Gross Yearly Salary:    Php %.2f\n", grossYearlyWage);
