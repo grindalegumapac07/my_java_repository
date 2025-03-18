@@ -64,8 +64,7 @@ public class LabActivity3ConditionalStatement {
                 break;
         
             default:
-                roleCodeName = "Undefined"; 
-                break;
+                roleCodeName = "Undefined";
         }
     
         // Calculating user's wage.
