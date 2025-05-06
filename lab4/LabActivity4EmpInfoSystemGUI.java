@@ -5,7 +5,6 @@ public class LabActivity4EmpInfoSystemGUI {
     public static void main(String[] args) {
         Frame frame = new Frame("Laboratory Activity 4");
         frame.setSize(425, 525);
-        frame.setResizable(false);
 
         // Main panel
         Panel pnlMain = new Panel(new GridLayout(3,1));
