@@ -121,6 +121,6 @@ public class LabActivity6SwingToDoList {
 
     // Main method to run the program
     public static void main(String[] args) {
-        new LabActivity6SwingToDoList(); // Launch the app
+        new LabActivity6SwingToDoList();
     }
 }
